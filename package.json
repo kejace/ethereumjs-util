@@ -23,9 +23,9 @@
   "homepage": "https://github.com/ethereum/ethereumjs-utils",
   "dependencies": {
     "bn.js": "^3.1.2",
-    "browserify-sha3": "0.0.0",
     "elliptic": "^5.0.0",
-    "rlp": "^2.0.0"
+    "rlp": "^2.0.0",
+    "sha3":"kejace/browserify-sha3"
   },
   "browser": {
     "sha3": "browserify-sha3"

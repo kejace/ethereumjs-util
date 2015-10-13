@@ -1,4 +1,4 @@
-const SHA3 = require('sha3')
+const SHA3 = require('browserify-sha3')
 const ec = require('elliptic').ec('secp256k1')
 const assert = require('assert')
 const rlp = require('rlp')
